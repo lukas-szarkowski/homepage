@@ -1,0 +1,38 @@
+body{
+background: white;
+
+}
+
+section {
+background: whitesmoke;
+
+}
+
+.main-heading {
+    color: black; 
+        
+        
+}
+.secondary-heading {
+    color:#1460AA
+
+}
+
+
+
+p {
+    color:purple;
+
+}
+    
+h3 {
+
+    color:rgb(189, 43, 99);
+
+}
+
+.header {
+background:#f5e6e6;
+
+
+}
