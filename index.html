@@ -10,57 +10,60 @@
   <body>
     <header class="header">
       <nav class="navigation-top">
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="css.html">CSS</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__link" href="css.html">CSS</a>
       </nav>
     </header>
 
-    <main>
-      <header id="top">
-        <h1 class="main-heading" id="name">
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js" id="name">
           WTF: COTENFRONTEND Strona domowa By Siara
         </h1>
-        <img src="stefan-siarzewski.jpg" alt="To Ja!" />
+        <img class="about__picture" src="stefan-siarzewski.jpg" alt="To Ja!" />
       </header>
 
       <h2 class="secondary-heading"><em>Program Szkolenia</em></h2>
 
-      <section>
+      <section class="next__week">
         <h2 class="secondary-heading">TYDZIEŃ I</h2>
-        <article>
+        <article class="weekend-summary">
           <h3 class="next-heading">Krok po kroku</h3>
 
-          <p>
+          <p class="about description">
             Pierwsze koty za płoty!!! Czym jest frontend?Dowiemy się na
-            <a href="https://cotenfrontend.pl">WTF.</a> Różnice w pracy na
-            systemach Windows / Linux / MacOS . <br />Przedstawienie narzędzi
-            wykorzystywanych w trakcie szkolenia.<br />
+            <a class="about__link" href="https://cotenfrontend.pl">WTF.</a>
+            Różnice w pracy na systemach Windows / Linux / MacOS .
+            <br />Przedstawienie narzędzi wykorzystywanych w trakcie
+            szkolenia.<br />
             Ścieżka rozwoju. Mój pierwszy projekt!Poznanie i ćwiczenie to
             podstawa.
           </p>
         </article>
         <h2 class="secondary-heading">Tydzień II</h2>
 
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">Krok po kroku</h3>
-          <p>
+          <p class="about description">
             Warstwy strony internetowej .WTF: HTML . WTF: CSS . Magia
             programowania . Devtools: podglądamy (i zmieniamy) istniejące strony
             .<br />
             Znaczniki/tagi i szkielet strony.
-            <a href="#notatki">Przejdź do notatek.</a>Co to semantyczny itp
-            itd.Myśl jak programista i pisz.
+            <a class="about__link" href="#notatki">Przejdź do notatek.</a>Co to
+            semantyczny itp itd.Myśl jak programista i pisz.
           </p>
         </article>
       </section>
 
-      <section id="notatki">
+      <section class="next__week">
         <h2 class="secondary-heading">Tydzień III</h2>
 
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">Krok po kroku</h3>
-          <p>
+          <p class="about description">
             Jak wygląda planowanie pracy za pomocą metody Kanban? Atrybuty w
             HTML . Klasy CSS .<br />
             Jak działa internet i przeglądarka? WTF: JavaScript .Terminal, czyli
@@ -68,42 +71,43 @@
           </p>
         </article>
         <h2 class="secondary-heading">Tydzień IV</h2>
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">QA i dzień z życia frontendowca</h3>
-          <p>
+          <p class="about description">
             GIT: pierwsze starcie Code: konfiguracja edytora CSS: box model,
             pozycje, floaty Block - element - modifier JavaScript: typy i
             struktury danych, immutability DOM-owe przedszkole.
           </p>
         </article>
       </section>
-      <section>
+      <section class="next__week">
         <h2 class="secondary-heading">Tydzień V</h2>
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">Idziemy dalej w las</h3>
 
-          <p>
+          <p class="about description">
             Co robić, jak nie działa? Figma: grafik cięcie — też zajęcie HTML:
             listy, tabele, definicje CSS: flexbox, tła Normalizacja vs reset
             JavaScript: funkcje.
           </p>
+          <p class="about description__about description--js"></p>
         </article>
         <h2 class="secondary-heading">Tydzień VI</h2>
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">Dalej w lesie a czasu brak?!</h3>
 
-          <p>
+          <p class="about description">
             HTML: formularze Czym się różni GET od POST? CSS: grid, media
             queries JavaScript: eventy i event loop 🍔 menu GitHub pages:
             statyczny hosting.
           </p>
         </article>
       </section>
-      <section>
+      <section class="next__week">
         <h2 class="secondary-heading">Tydzień VII</h2>
-        <article>
+        <article class="next__week">
           <h3 class="next-heading">Flexbox vs Grid</h3>
-          <p>
+          <p class="about description">
             NODEJS & NPM: podstawowe narzędzia współczesnego frontendowca
             Skrypty NPM SASS: korzystamy z preprocesora CSS JavaScript: obiekty
             / prototypy / klasy.
@@ -111,36 +115,38 @@
         </article>
         <h2 class="secondary-heading">Tydzień VIII</h2>
         <h3 class="next-heading">Krok jeden z wielu!!!</h3>
-        <p>
+        <p class="about description">
           JavaScript: import / export Webpack: wstęp do narzędzia Webpack:
           moduły i pluginy WTF Webpack StarterKit CSS: zmienne HTML: Hiperdivoza
           i inne choroby Twojego kodu.
         </p>
       </section>
-      <section>
+      <section class="next__week">
         <h2 class="secondary-heading">Tydzień IX</h2>
         <h3 class="next-heading">Code Review</h3>
-        <p>
+        <p class="about description">
           CSS: prefixy, customowe fonty Markdown Czy frontendowiec musi być
           grafikiem? <br />Prototypowanie w Figmie. Git: branche JavaScript:
           cookies, local i session storage.
         </p>
       </section>
-      <section>
+      <section class="next__week">
         <h2 class="secondary-heading">Tydzień X</h2>
         <h3 class="next-heading">Co dalej?!</h3>
-        <p>
+        <p class="about description">
           Z kim pracuje frontendowiec? CSS: animacje i przejścia SVG: praca z
           grafiką wektorową OpenGraph Progressive Web Apps WCAG.
         </p>
       </section>
 
-      <script src="main.js"></script>
+      
     </main>
-    <footer>
-      To jest praca domowa Siary.I kto jest teraz debesciak?!<a href="#top"
-        >Wróc na górę strony</a
-      >
+    <footer class="footer">
+      To jest praca domowa Siary.I kto jest teraz debesciak?!
+        <a class="footer__link"
+        href="#top">
+        Wróc na górę strony</a>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>

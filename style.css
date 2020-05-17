@@ -11,10 +11,9 @@ section {
   margin: 10px;
   padding: 10px;
   display: block;
-
 }
 
-.main-heading {
+.main__heading {
   color: black;
 }
 .secondary-heading {
@@ -22,9 +21,21 @@ section {
 }
 
 .next-heading {
-  color: rgb(117, 10, 51);
+  color: #db9d2a;
 }
 
 .header {
   background: #f5e6e6;
+}
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer {
+  border: 40px;
+  color: #050505;
+  max-width:1000px;
+  margin: 0 auto;
+  padding: 10px;
+
 }
