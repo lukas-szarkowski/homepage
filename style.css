@@ -1,31 +1,22 @@
-body{
-background: white;
-
+body {
+  background: white;
 }
 
 section {
-background: whitesmoke;
-
+  background: whitesmoke;
 }
 
 .main-heading {
-    color: black; 
-        
-        
+  color: black;
 }
 .secondary-heading {
-    color:#1460AA
-
+  color: #1460aa;
 }
 
-    
 h3 {
-
-    color:rgb(189, 43, 99);
-
+  color: rgb(189, 43, 99);
 }
 
 .header {
-background:#f5e6e6;
-
+  background: #f5e6e6;
 }
