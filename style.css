@@ -34,8 +34,14 @@ section {
 .footer {
   border: 40px;
   color: #050505;
-  max-width:1000px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 10px;
-
+}
+.list {
+  list-style: square;
+}
+.table {
+  width: 100%;
+  
 }

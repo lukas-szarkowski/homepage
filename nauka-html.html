@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css">
 
 
@@ -38,16 +39,16 @@
         <h2 class="secondary-heading">Tagi ulubione </h2>
         <article>
             <h3>HTML2</h3>
-            <ol>
+            <ol class= "list">
                 <p class="about description">
-                    <li><strong> &ltbr> lub &lt/br> </strong>- przejście do nowej linii </li><strong>
-                        <li><strong></strong>&ltb>&lt/b>
+                    <li class= "list"><strong> &ltbr> lub &lt/br> </strong>- przejście do nowej linii </li><strong>
+                        <li class= "list__item"><strong></strong>&ltb>&lt/b>
                     </strong>
                     - tekst pogrubiony </li>
-                    <li><strong> &lti>&lt/i></strong>
+                    <li class= "list__item"><strong> &lti>&lt/i></strong>
                         - tekst pochylony</li>
-                    <li><strong> &ltem></strong>- podkreśla, że tekst może mieć znaczenie</li>
-                    <li><strong>&ltnav></strong>-nawigacja</li>
+                    <li class= "list__item"><strong> &ltem></strong>- podkreśla, że tekst może mieć znaczenie</li>
+                    <li class= "list__item"><strong>&ltnav></strong>-nawigacja</li>
 
                 </p>
             </ol>
@@ -55,6 +56,40 @@
         </article>
 
     </section>
+<section>
+<h4>Rozpiska WTF</h4>
+<table class="table">
+    <caption>Spis odcinków WTF:co ten frontend</caption>
+<thead>
+    <tr>
+        <th>lp</th>
+        <th>tytuł</th>
+        <th>czas trwania</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1.</td>
+        <td>Powitanie</td>
+        <td>05:45</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Lorem ipsum</td>
+        <td>12:45</td>
+        <tr>
+            <td>3.</td>
+            <td>Szczegóły ścieżki frontendowca</td>
+            <td>13:45</td>
+        </tr>
+    </tr>
+</tbody>
+
+</table>
+
+
+</section>
+
 
 
 </main>
