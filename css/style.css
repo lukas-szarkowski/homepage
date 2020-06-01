@@ -15,6 +15,14 @@ body {
 section {
   background: #ffffff;
 }
+.about__picture {
+  background-color: gray solid;
+  border:solid;
+  display: block;
+    margin: 0 auto;
+ 
+}
+
 
 .navigation {
   background: #478a05;
@@ -34,6 +42,7 @@ section {
 
 .main__heading {
   color: black;
+ 
 }
 .secondary-heading {
   color: #1460aa;
