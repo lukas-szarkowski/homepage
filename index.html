@@ -10,13 +10,14 @@
 
   <body>
     <header class="header">
-      <nav class="navigation">
+      <nav class="navigation navigation--js">
         <a class="navigation__link navigation__link--homepage" href="index.html"
           >Strona główna</a
         >
         <a class="navigation__link" href="nauka-html.html">Nauka html</a>
         <a class="navigation__link" href="css.html">CSS</a>
       </nav>
+      <button class="hamburger hamburger--js">🍔</button>
     </header>
 
     <main class="main">
@@ -25,10 +26,12 @@
           WTF: COTENFRONTEND Strona domowa By Łukasz Szarkowski
         </h1>
         <img class="about__picture" src="images/logo.png" alt="To my!" />
+        <button class="action--js">Zmień nagłówek</button>
       </header>
 
       <h2 class="secondary-heading"><em>Program Szkolenia</em></h2>
       <a class="about__link" href="#notatki">Przejdź do notatek. </a>
+      <div class="grid">
       <section class="next__week">
         <h2 class="secondary-heading">TYDZIEŃ I</h2>
         <article class="weekend-summary">
@@ -53,7 +56,7 @@
             programowania . Devtools: podglądamy (i zmieniamy) istniejące strony
             .<br />
             Znaczniki/tagi i szkielet strony.
-            </a>Co to
+            Co to
             semantyczny itp itd.Myśl jak programista i pisz.
           </p>
         </article>
@@ -102,6 +105,7 @@
             statyczny hosting.
           </p>
         </article>
+      
       </section>
       <section class="next__week">
         <h2 class="secondary-heading">Tydzień VII</h2>
@@ -120,6 +124,7 @@
           moduły i pluginy WTF Webpack StarterKit CSS: zmienne HTML: Hiperdivoza
           i inne choroby Twojego kodu.
         </p>
+      
       </section>
       <section class="next__week">
         <h2 class="secondary-heading">Tydzień IX</h2>
@@ -130,14 +135,8 @@
           cookies, local i session storage.
         </p>
       </section>
-      <section class="next__week">
-        <h2 class="secondary-heading">Tydzień X</h2>
-        <h3 class="next-heading">Co dalej?!</h3>
-        <p class="about description">
-          Z kim pracuje frontendowiec? CSS: animacje i przejścia SVG: praca z
-          grafiką wektorową OpenGraph Progressive Web Apps WCAG.
-        </p>
-      </section>
+    </div>
+      
     </main>
     <footer class="footer">
       To jest praca domowa Siary.I kto jest teraz debesciak?!
