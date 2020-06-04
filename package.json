@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "sass": "npx node-sass -w scss/style.scss css/style.css",
+    "sass": "npx node-sass -w scss/style.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
